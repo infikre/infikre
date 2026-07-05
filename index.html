@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Infikre | The Art of Infikreation</title>
+  <meta name="description" content="Infikre is a creative powerhouse for branding, web, media, print, innovation labs, and events.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand-mark" href="#home" aria-label="Infikre home">
+        <img src="assets/infikre-logo.png" alt="Infikre">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="primary-menu" id="primary-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="has-menu">
+          <button type="button" aria-expanded="false">Services</button>
+          <ul class="dropdown" aria-label="Services">
+            <li><a href="brand.html">Infikre Brand</a></li>
+            <li><a href="web.html">Infikre Web</a></li>
+            <li><a href="media.html">Infikre Media</a></li>
+            <li><a href="print.html">Infikre Print</a></li>
+          </ul>
+        </li>
+        <li class="has-menu">
+          <button type="button" aria-expanded="false">Nexus</button>
+          <ul class="dropdown" aria-label="Nexus">
+            <li><a href="lab.html">Infikre Lab</a></li>
+            <li><a href="#nexus" data-tab-link="events">Infikre Events</a></li>
+            <li><a href="#nexus" data-tab-link="future">Coming Soon</a></li>
+          </ul>
+        </li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="talk-button" href="#contact">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero-section" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">We create &bull; We innovate &bull; We elevate</p>
+        <h1 id="hero-title">We don't just create, we craft experiences.</h1>
+        <p class="hero-text">Infikre builds brand identities, digital platforms, media stories, print systems, and experimental projects that make businesses feel unmistakable.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#portfolio">Explore Our Work</a>
+          <a class="button secondary" href="#about">About Infikre</a>
+        </div>
+      </div>
+      <div class="hero-stage" aria-label="Infikre brand visual">
+        <div class="orbit one"></div>
+        <div class="orbit two"></div>
+        <img class="hero-logo" src="assets/infikre-logo.png" alt="Infikre logo">
+      </div>
+    </section>
+
+    <section class="about-section panel" id="about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="section-kicker">About us</p>
+        <h2 id="about-title">We are Infikre. We create impact.</h2>
+        <p>We are a collective of thinkers, designers, developers, storytellers, strategists, and innovators. We blend creativity with technology to shape brands, platforms, and content that people remember.</p>
+      </div>
+      <figure class="about-visual">
+        <img src="assets/infikre-master-visual.png" alt="Infikre website concept with dark interface and brand elements">
+        <figcaption>
+          <strong>The First Employee</strong>
+          <span>Creative Soul &amp; Growth Driver</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="goals-section" aria-labelledby="goals-title">
+      <div class="section-heading">
+        <p class="section-kicker">Our goals</p>
+        <h2 id="goals-title">Designed for brands that want momentum.</h2>
+      </div>
+      <div class="goal-grid">
+        <article class="goal-card">
+          <span class="icon gold">◎</span>
+          <h3>Create Meaningful Brands</h3>
+          <p>Build identities that stand out and leave a lasting impression.</p>
+        </article>
+        <article class="goal-card">
+          <span class="icon blue">▣</span>
+          <h3>Deliver Innovative Solutions</h3>
+          <p>Use design, code, and systems to solve real business problems.</p>
+        </article>
+        <article class="goal-card">
+          <span class="icon purple">☷</span>
+          <h3>Inspire &amp; Connect People</h3>
+          <p>Tell stories that engage, inspire, and create emotional impact.</p>
+        </article>
+        <article class="goal-card">
+          <span class="icon orange">▰</span>
+          <h3>Drive Business Growth</h3>
+          <p>Help brands grow faster with strategy, creativity, and technology.</p>
+        </article>
+        <article class="goal-card">
+          <span class="icon green">✦</span>
+          <h3>Build a Creative Legacy</h3>
+          <p>Keep pushing boundaries and elevate the industry.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="nexus-section panel" id="nexus" aria-labelledby="nexus-title">
+      <div class="nexus-intro">
+        <div>
+          <p class="section-kicker">Our unified architecture</p>
+          <h2 id="nexus-title">Infikre Nexus</h2>
+        </div>
+        <p>One brand. Multiple creative divisions. Infinite possibilities.</p>
+      </div>
+
+      <div class="tabs" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="Infikre Nexus divisions">
+          <button class="tab is-active" role="tab" id="tab-brand" aria-selected="true" aria-controls="panel-brand" data-tab="brand">Infikre Brand</button>
+          <button class="tab" role="tab" id="tab-web" aria-selected="false" aria-controls="panel-web" data-tab="web">Infikre Web</button>
+          <button class="tab" role="tab" id="tab-media" aria-selected="false" aria-controls="panel-media" data-tab="media">Infikre Media</button>
+          <button class="tab" role="tab" id="tab-print" aria-selected="false" aria-controls="panel-print" data-tab="print">Infikre Print</button>
+          <button class="tab" role="tab" id="tab-lab" aria-selected="false" aria-controls="panel-lab" data-tab="lab">Infikre Lab</button>
+          <button class="tab" role="tab" id="tab-events" aria-selected="false" aria-controls="panel-events" data-tab="events">Infikre Events</button>
+        </div>
+
+        <article class="tab-panel is-active brand-panel" id="panel-brand" role="tabpanel" aria-labelledby="tab-brand" data-panel="brand">
+          <div class="panel-lead">
+            <span class="panel-symbol">✒</span>
+            <div>
+              <p>Infikre Brand</p>
+              <h3>Crafting identities that leave a mark.</h3>
+              <a href="brand.html">Explore Brand Services</a>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div><h4>Brand Identity</h4><p>Logos, visual identity, and guidelines.</p></div>
+            <div><h4>Brand Strategy</h4><p>Positioning, messaging, and architecture.</p></div>
+            <div><h4>Brand Experience</h4><p>Memorable experiences across touchpoints.</p></div>
+            <div><h4>Rebranding</h4><p>Strategic transformation for future growth.</p></div>
+          </div>
+        </article>
+
+        <article class="tab-panel web-panel" id="panel-web" role="tabpanel" aria-labelledby="tab-web" data-panel="web" hidden>
+          <div class="panel-lead">
+            <span class="panel-symbol">⌘</span>
+            <div>
+              <p>Infikre Web</p>
+              <h3>Digital platforms built for speed, clarity, and conversion.</h3>
+              <a href="#contact">Start a Web Project</a>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div><h4>Websites</h4><p>Responsive business sites and landing pages.</p></div>
+            <div><h4>Web Apps</h4><p>Usable tools for internal and customer workflows.</p></div>
+            <div><h4>SEO Foundations</h4><p>Structure, performance, metadata, and content clarity.</p></div>
+            <div><h4>Care Plans</h4><p>Iteration, improvements, maintenance, and analytics.</p></div>
+          </div>
+        </article>
+
+        <article class="tab-panel media-panel" id="panel-media" role="tabpanel" aria-labelledby="tab-media" data-panel="media" hidden>
+          <div class="panel-lead">
+            <span class="panel-symbol">◈</span>
+            <div>
+              <p>Infikre Media</p>
+              <h3>Content that carries the brand voice everywhere it moves.</h3>
+              <a href="#contact">Plan Media Production</a>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div><h4>Photo &amp; Video</h4><p>Campaign visuals, reels, product, and event content.</p></div>
+            <div><h4>Social Systems</h4><p>Templates, calendars, and platform-ready content.</p></div>
+            <div><h4>Motion Design</h4><p>Animated explainers, intros, and brand reveals.</p></div>
+            <div><h4>Storytelling</h4><p>Messaging, scripts, narratives, and content direction.</p></div>
+          </div>
+        </article>
+
+        <article class="tab-panel print-panel" id="panel-print" role="tabpanel" aria-labelledby="tab-print" data-panel="print" hidden>
+          <div class="panel-lead">
+            <span class="panel-symbol">▱</span>
+            <div>
+              <p>Infikre Print</p>
+              <h3>Tactile brand materials with premium detail.</h3>
+              <a href="#contact">Create Print Collateral</a>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div><h4>Business Collateral</h4><p>Cards, letterheads, brochures, and decks.</p></div>
+            <div><h4>Packaging</h4><p>Labels, wraps, inserts, and launch kits.</p></div>
+            <div><h4>Signage</h4><p>Retail, event, and environmental graphics.</p></div>
+            <div><h4>Production Support</h4><p>Print-ready files and vendor coordination.</p></div>
+          </div>
+        </article>
+
+        <article class="tab-panel lab-panel" id="panel-lab" role="tabpanel" aria-labelledby="tab-lab" data-panel="lab" hidden>
+          <div class="panel-lead">
+            <span class="panel-symbol">✺</span>
+            <div>
+              <p>Infikre Lab</p>
+              <h3>Experimental ideas, prototypes, and future-ready concepts.</h3>
+              <a href="lab.html">Enter the Lab</a>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div><h4>Prototype Sprints</h4><p>Rapid tests for product, campaign, and service ideas.</p></div>
+            <div><h4>AI Workflows</h4><p>Creative automation and practical business assistants.</p></div>
+            <div><h4>Interactive Concepts</h4><p>Immersive web, installations, and experience design.</p></div>
+            <div><h4>Innovation Roadmaps</h4><p>Prioritized opportunities for your next move.</p></div>
+          </div>
+        </article>
+
+        <article class="tab-panel events-panel" id="panel-events" role="tabpanel" aria-labelledby="tab-events" data-panel="events" hidden>
+          <div class="panel-lead">
+            <span class="panel-symbol">▦</span>
+            <div>
+              <p>Infikre Events</p>
+              <h3>Experiences that bring people into the brand story.</h3>
+              <a href="#contact">Design an Event</a>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div><h4>Launch Events</h4><p>Brand, product, and campaign moments.</p></div>
+            <div><h4>Creative Direction</h4><p>Theme, stage, visuals, and attendee journey.</p></div>
+            <div><h4>Event Media</h4><p>Pre-event teasers, live content, and recaps.</p></div>
+            <div><h4>Community</h4><p>Workshops, meetups, showcases, and activations.</p></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="section-heading">
+        <p class="section-kicker">Portfolio</p>
+        <h2 id="portfolio-title">Work shaped to feel clear, premium, and alive.</h2>
+      </div>
+      <div class="portfolio-grid">
+        <article><span>Brand System</span><h3>Identity suites for ambitious businesses</h3></article>
+        <article><span>Web Experience</span><h3>Fast digital homes built to convert</h3></article>
+        <article><span>Media Engine</span><h3>Campaign content with a recognizable voice</h3></article>
+      </div>
+    </section>
+
+    <section class="contact-section panel" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-title">Ready to build something unmistakable?</h2>
+        <p>Bring the idea. Infikre will shape the brand, digital experience, and story around it.</p>
+      </div>
+      <a class="button primary" href="mailto:hello@infikre.com">hello@infikre.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/infikre-logo.png" alt="Infikre">
+    <p>&copy; 2026 Infikre. Designed for excellence. Built for impact.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
